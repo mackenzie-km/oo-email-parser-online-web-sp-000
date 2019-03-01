@@ -14,7 +14,7 @@ end
 
 #class needs mail.parse to make a useful array
 def parse 
-parsed = @emails.split(/[\s,]/)
+parsed = @emails.split(/\s,/)
 end
 
 end 
