@@ -5,15 +5,16 @@
 
 #starts the EmailParser class 
 class EmailParser 
-attr_accessor 
+attr_accessor :emails
 
 #gets initialized with a string of emails 
 def initialize(emails)
-  
+  @emails = emails
 end 
 
 #class needs mail.parse to make a useful array
 def parse 
+@emails == @emails.split(" ")
 end
 
 end 
