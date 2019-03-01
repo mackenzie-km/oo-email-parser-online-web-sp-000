@@ -8,7 +8,8 @@ class EmailParser
 attr_accessor 
 
 #gets initialized with a string of emails 
-def initialize
+def initialize(emails)
+  
 end 
 
 #class needs mail.parse to make a useful array
